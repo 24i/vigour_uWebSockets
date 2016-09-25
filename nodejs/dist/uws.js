@@ -9,6 +9,7 @@ function abortConnection(socket, code, name) {
 }
 const uws = (() => {
     console.log('fuck errors!')
+    return require(`./uws_linux_48.node`);
 //     try {
 //         console.log('force linux')
 //         // process.platform
